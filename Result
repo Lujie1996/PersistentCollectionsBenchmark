@@ -1,0 +1,124 @@
+Benchmark                                                                                   Mode    Cnt  Score   Error   Units
+PutBenchmark.put10kEntriesToCyclopsHashMap                                                 thrpt      3  0.477 ± 1.004  ops/ms
+PutBenchmark.put10kEntriesToJavaHashMap                                                    thrpt      3  2.606 ± 1.355  ops/ms
+PutBenchmark.put10kEntriesToPCollectionHashMap                                             thrpt      3  0.374 ± 0.036  ops/ms
+PutBenchmark.put10kEntriesToPaguroHashMap                                                  thrpt      3  0.952 ± 0.143  ops/ms
+PutBenchmark.put10kEntriesToVavrHashMap                                                    thrpt      3  1.047 ± 0.035  ops/ms
+PutBenchmark.put10kEntriesToCyclopsHashMap                                                  avgt      3  1.906 ± 0.199   ms/op
+PutBenchmark.put10kEntriesToJavaHashMap                                                     avgt      3  0.388 ± 0.035   ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap                                              avgt      3  2.599 ± 0.135   ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap                                                   avgt      3  1.080 ± 0.103   ms/op
+PutBenchmark.put10kEntriesToVavrHashMap                                                     avgt      3  0.982 ± 0.383   ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap                                                sample  15932  1.882 ± 0.004   ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap:put10kEntriesToCyclopsHashMap·p0.00            sample         1.733           ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap:put10kEntriesToCyclopsHashMap·p0.50            sample         1.855           ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap:put10kEntriesToCyclopsHashMap·p0.90            sample         1.995           ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap:put10kEntriesToCyclopsHashMap·p0.95            sample         2.093           ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap:put10kEntriesToCyclopsHashMap·p0.99            sample         2.552           ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap:put10kEntriesToCyclopsHashMap·p0.999           sample         2.942           ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap:put10kEntriesToCyclopsHashMap·p0.9999          sample         3.550           ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap:put10kEntriesToCyclopsHashMap·p1.00            sample         3.637           ms/op
+PutBenchmark.put10kEntriesToJavaHashMap                                                   sample  76301  0.393 ± 0.001   ms/op
+PutBenchmark.put10kEntriesToJavaHashMap:put10kEntriesToJavaHashMap·p0.00                  sample         0.358           ms/op
+PutBenchmark.put10kEntriesToJavaHashMap:put10kEntriesToJavaHashMap·p0.50                  sample         0.384           ms/op
+PutBenchmark.put10kEntriesToJavaHashMap:put10kEntriesToJavaHashMap·p0.90                  sample         0.410           ms/op
+PutBenchmark.put10kEntriesToJavaHashMap:put10kEntriesToJavaHashMap·p0.95                  sample         0.459           ms/op
+PutBenchmark.put10kEntriesToJavaHashMap:put10kEntriesToJavaHashMap·p0.99                  sample         0.565           ms/op
+PutBenchmark.put10kEntriesToJavaHashMap:put10kEntriesToJavaHashMap·p0.999                 sample         1.056           ms/op
+PutBenchmark.put10kEntriesToJavaHashMap:put10kEntriesToJavaHashMap·p0.9999                sample         1.461           ms/op
+PutBenchmark.put10kEntriesToJavaHashMap:put10kEntriesToJavaHashMap·p1.00                  sample         2.871           ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap                                            sample  11414  2.627 ± 0.008   ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap:put10kEntriesToPCollectionHashMap·p0.00    sample         2.433           ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap:put10kEntriesToPCollectionHashMap·p0.50    sample         2.560           ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap:put10kEntriesToPCollectionHashMap·p0.90    sample         2.761           ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap:put10kEntriesToPCollectionHashMap·p0.95    sample         3.094           ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap:put10kEntriesToPCollectionHashMap·p0.99    sample         3.776           ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap:put10kEntriesToPCollectionHashMap·p0.999   sample         5.338           ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap:put10kEntriesToPCollectionHashMap·p0.9999  sample         6.588           ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap:put10kEntriesToPCollectionHashMap·p1.00    sample         6.603           ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap                                                 sample  26752  1.120 ± 0.003   ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap:put10kEntriesToPaguroHashMap·p0.00              sample         0.956           ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap:put10kEntriesToPaguroHashMap·p0.50              sample         1.073           ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap:put10kEntriesToPaguroHashMap·p0.90              sample         1.272           ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap:put10kEntriesToPaguroHashMap·p0.95              sample         1.333           ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap:put10kEntriesToPaguroHashMap·p0.99              sample         1.694           ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap:put10kEntriesToPaguroHashMap·p0.999             sample         2.146           ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap:put10kEntriesToPaguroHashMap·p0.9999            sample         2.969           ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap:put10kEntriesToPaguroHashMap·p1.00              sample         5.005           ms/op
+PutBenchmark.put10kEntriesToVavrHashMap                                                   sample  31023  0.967 ± 0.002   ms/op
+PutBenchmark.put10kEntriesToVavrHashMap:put10kEntriesToVavrHashMap·p0.00                  sample         0.872           ms/op
+PutBenchmark.put10kEntriesToVavrHashMap:put10kEntriesToVavrHashMap·p0.50                  sample         0.943           ms/op
+PutBenchmark.put10kEntriesToVavrHashMap:put10kEntriesToVavrHashMap·p0.90                  sample         1.071           ms/op
+PutBenchmark.put10kEntriesToVavrHashMap:put10kEntriesToVavrHashMap·p0.95                  sample         1.139           ms/op
+PutBenchmark.put10kEntriesToVavrHashMap:put10kEntriesToVavrHashMap·p0.99                  sample         1.337           ms/op
+PutBenchmark.put10kEntriesToVavrHashMap:put10kEntriesToVavrHashMap·p0.999                 sample         1.903           ms/op
+PutBenchmark.put10kEntriesToVavrHashMap:put10kEntriesToVavrHashMap·p0.9999                sample         2.100           ms/op
+PutBenchmark.put10kEntriesToVavrHashMap:put10kEntriesToVavrHashMap·p1.00                  sample         2.261           ms/op
+PutBenchmark.put10kEntriesToCyclopsHashMap                                                    ss      3  4.381 ± 0.947   ms/op
+PutBenchmark.put10kEntriesToJavaHashMap                                                       ss      3  1.374 ± 0.707   ms/op
+PutBenchmark.put10kEntriesToPCollectionHashMap                                                ss      3  6.191 ± 7.974   ms/op
+PutBenchmark.put10kEntriesToPaguroHashMap                                                     ss      3  4.049 ± 4.435   ms/op
+PutBenchmark.put10kEntriesToVavrHashMap                                                       ss      3  3.748 ± 7.147   ms/op
+
+
+Benchmark                                                                                            Mode     Cnt  Score    Error   Units
+RandomAccessBenchmark.randomAccess10KJavaHashMap                                                    thrpt       3  7.998 ±  2.934  ops/ms
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap                                             thrpt       3  0.863 ±  0.120  ops/ms
+RandomAccessBenchmark.randomAccess10KPaguroHashMap                                                  thrpt       3  3.434 ±  3.947  ops/ms
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap                                               thrpt       3  3.611 ±  0.926  ops/ms
+RandomAccessBenchmark.randomAccess10KVavrHashMap                                                    thrpt       3  4.091 ±  1.007  ops/ms
+RandomAccessBenchmark.randomAccess10KJavaHashMap                                                     avgt       3  0.126 ±  0.063   ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap                                              avgt       3  1.156 ±  0.083   ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap                                                   avgt       3  0.290 ±  0.351   ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap                                                avgt       3  0.264 ±  0.094   ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap                                                     avgt       3  0.244 ±  0.062   ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap                                                   sample  233965  0.128 ±  0.001   ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap:randomAccess10KJavaHashMap·p0.00                  sample          0.111            ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap:randomAccess10KJavaHashMap·p0.50                  sample          0.126            ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap:randomAccess10KJavaHashMap·p0.90                  sample          0.131            ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap:randomAccess10KJavaHashMap·p0.95                  sample          0.135            ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap:randomAccess10KJavaHashMap·p0.99                  sample          0.213            ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap:randomAccess10KJavaHashMap·p0.999                 sample          0.293            ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap:randomAccess10KJavaHashMap·p0.9999                sample          0.977            ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap:randomAccess10KJavaHashMap·p1.00                  sample          2.916            ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap                                            sample   26366  1.137 ±  0.002   ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap:randomAccess10KPCollectionHashMap·p0.00    sample          1.049            ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap:randomAccess10KPCollectionHashMap·p0.50    sample          1.108            ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap:randomAccess10KPCollectionHashMap·p0.90    sample          1.229            ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap:randomAccess10KPCollectionHashMap·p0.95    sample          1.276            ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap:randomAccess10KPCollectionHashMap·p0.99    sample          1.481            ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap:randomAccess10KPCollectionHashMap·p0.999   sample          2.015            ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap:randomAccess10KPCollectionHashMap·p0.9999  sample          3.967            ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap:randomAccess10KPCollectionHashMap·p1.00    sample          4.817            ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap                                                 sample  103678  0.289 ±  0.001   ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap:randomAccess10KPaguroHashMap·p0.00              sample          0.257            ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap:randomAccess10KPaguroHashMap·p0.50              sample          0.283            ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap:randomAccess10KPaguroHashMap·p0.90              sample          0.300            ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap:randomAccess10KPaguroHashMap·p0.95              sample          0.338            ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap:randomAccess10KPaguroHashMap·p0.99              sample          0.424            ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap:randomAccess10KPaguroHashMap·p0.999             sample          0.649            ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap:randomAccess10KPaguroHashMap·p0.9999            sample          1.207            ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap:randomAccess10KPaguroHashMap·p1.00              sample          3.150            ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap                                              sample  106839  0.281 ±  0.001   ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap:randomAccess10KToCyclopsHashMap·p0.00        sample          0.253            ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap:randomAccess10KToCyclopsHashMap·p0.50        sample          0.269            ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap:randomAccess10KToCyclopsHashMap·p0.90        sample          0.323            ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap:randomAccess10KToCyclopsHashMap·p0.95        sample          0.358            ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap:randomAccess10KToCyclopsHashMap·p0.99        sample          0.422            ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap:randomAccess10KToCyclopsHashMap·p0.999       sample          0.848            ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap:randomAccess10KToCyclopsHashMap·p0.9999      sample          1.549            ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap:randomAccess10KToCyclopsHashMap·p1.00        sample          2.765            ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap                                                   sample  119925  0.250 ±  0.001   ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap:randomAccess10KVavrHashMap·p0.00                  sample          0.226            ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap:randomAccess10KVavrHashMap·p0.50                  sample          0.241            ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap:randomAccess10KVavrHashMap·p0.90                  sample          0.279            ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap:randomAccess10KVavrHashMap·p0.95                  sample          0.326            ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap:randomAccess10KVavrHashMap·p0.99                  sample          0.379            ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap:randomAccess10KVavrHashMap·p0.999                 sample          0.541            ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap:randomAccess10KVavrHashMap·p0.9999                sample          1.192            ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap:randomAccess10KVavrHashMap·p1.00                  sample          2.732            ms/op
+RandomAccessBenchmark.randomAccess10KJavaHashMap                                                       ss       3  1.855 ±  1.863   ms/op
+RandomAccessBenchmark.randomAccess10KPCollectionHashMap                                                ss       3  4.144 ±  3.349   ms/op
+RandomAccessBenchmark.randomAccess10KPaguroHashMap                                                     ss       3  2.314 ±  1.017   ms/op
+RandomAccessBenchmark.randomAccess10KToCyclopsHashMap                                                  ss       3  2.439 ±  2.517   ms/op
+RandomAccessBenchmark.randomAccess10KVavrHashMap                                                       ss       3  2.612 ±  5.131   ms/op
